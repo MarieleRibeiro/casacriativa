@@ -1,0 +1,50 @@
+body {
+  background: #e5e5e5;
+  color: #25282b;
+  margin: 0;
+}
+#container {
+  width: 90%;
+  max-width: 980px;
+
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+}
+
+#intro {
+  width: 300px;
+
+  margin-right: 20px;
+}
+#buttons {
+  display: flex;
+  justify-content: spaca-event;
+
+  margin-bottom: 32px;
+}
+button {
+  color: #ff5e84;
+
+  border: none;
+
+  font-weight: bold;
+  background: none;
+}
+
+button.fat {
+  color: white;
+  background: #ff5e84;
+}
+footer {
+  text-align: center;
+}
+
+footer a {
+  color: #25282b;
+  text-decoration: none;
+}
+
+.hide {
+  display: none;
+}
